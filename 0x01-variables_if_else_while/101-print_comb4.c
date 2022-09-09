@@ -26,7 +26,7 @@ int main(void)
 			while (n3 <= 57)
 			{
 
-																					putchar(n1);
+				putchar(n1);
 				putchar(n2);
 				putchar(n3);
 				if (n1 != 55 || n2 != 56 || n3 != 57)
@@ -37,8 +37,10 @@ int main(void)
 				}																	n3 += 1;
 			}
 			n2 += 1;
-																			}
+
+		}
 		n1 += 1;
+
 	}
 	putchar('\n');
 	return (0);
