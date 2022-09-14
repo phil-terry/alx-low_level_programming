@@ -1,15 +1,12 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 /**
- * main - The main program
+ * main - This is the entry point
  *
  * Return: Always returns 0 (success)
  */
 
 int main(void)
 {
-
 	char c[] = "_putchar";
 	int a;
 
@@ -19,5 +16,5 @@ int main(void)
 	}
 
 	_putchar('\n');
-	return (0);
+	return (0;);
 }
