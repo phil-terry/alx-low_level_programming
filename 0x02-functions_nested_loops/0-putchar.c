@@ -3,14 +3,13 @@
 #include "main.h"
 
 /**
-* main - This is the entry point
-*
-* Return: Always returns 0 (success)
-*/
+ * main - This is the entry point
+ *
+ * Return: Always returns 0 (success)
+ */
 
 int main(void)
 {
-
 	char c[] = "_putchar";
 	int a;
 
