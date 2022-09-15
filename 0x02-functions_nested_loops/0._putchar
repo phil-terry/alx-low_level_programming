@@ -1,23 +1,23 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 
 /**
-* main - This is the entry point
+* main - main function
 *
-* Return: Always returns 0 (success)
+* Return: End program
 */
 
 int main(void)
 {
-	char c[] = "_putchar";
-	int a;
+    	char string[8] = "_putchar";
+   	int n = 0;
 
-	for (a = 0; a < 8; a++)
-	{
-		_putchar(c[a]);
+    	while (n < 8)
+ 	{
+   		_putchar(string[n]);
+		++n;
 	}
 
-	_putchar('\n');
+	_putchar(10);
 	return (0);
+
 }
