@@ -5,7 +5,6 @@
  *@s: input pointer
  *Return: no return
  */
-
 void print_rev(char *s)
 {
 	int count = 0;
@@ -17,6 +16,6 @@ void print_rev(char *s)
 		count++;
 	}
 	for (count--; count >= 0; count--)
-			_putchar(s[count]);
-			_putchar('\n');
+		_putchar(s[count]);
+	_putchar('\n');
 }
